@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,maximum-scale=1.0, minimum-scale=1, user-scalable=yes, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>jinhwanTube</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__home">
+      <img src="./_assets/header/hamburger.svg" alt="">
+      <img src="./_assets/header/youtube-logo.svg" alt="">
+    </div>
+    <div class="header__input">
+      <input placeholder="검색">
+      <span class="search-form"><img src="./_assets/header/search.svg" alt=""></span>
+      <img src="./_assets/header/mic.svg" alt="">
+    </div>
+    <div class="header__user">
+      <img src="./_assets/header/make.svg" alt="">
+      <img src="./_assets/header/app.svg" alt="">
+      <img src="./_assets/header/noti.svg" alt="">
+      <img class="user-jpg" src="./_assets/header/unnamed.jpg" alt="">
+    </div>
+  </header>
+
+  <main class="main-container">
+    <aside class="nav">
+      <div class="nav__default">
+        <div class="nav-item hover-item"><img src="./_assets/aside/home.svg" alt=""> 홈</div>
+        <div class="nav-item hover-item"><img src="./_assets/aside/search.svg" alt=""> 탐색</div>
+        <div class="nav-item hover-item"><img src="./_assets/aside/subscribe.svg" alt=""> 구독</div>
+      </div>
+      <div class="nav__user">
+        <div class="user-item hover-item"><img src="./_assets/aside/stored.svg" alt=""> 보관함</div>
+        <div class="user-item hover-item"><img src="./_assets/aside/latest-view.svg" alt=""> 시청 기록</div>
+        <div class="user-item hover-item"><img src="./_assets/aside/saved.svg" alt=""> 나중에 볼 동영상</div>
+        <div class="user-item hover-item"><img src="./_assets/aside/thumbsup.svg" alt=""> 좋아요 표시한 동영상</div>
+      </div>
+      <div class="nav__subscribe">
+        <div>구독</div>
+        <div class="hover-item"><img class="icon-jpg" src="./_assets/aside/music.jpg" alt=""> 음악</div>
+        <div class="hover-item"><img class="icon-jpg" src="./_assets/aside/sport-dark.jpg" alt=""> 스포츠</div>
+        <div class="hover-item"><img class="icon-jpg" src="./_assets/aside/game-dark.jpg" alt=""> 게임</div>
+        <div class="hover-item"><img class="icon-jpg" src="./_assets/aside/movie-dark.jpg" alt=""> 영화</div>
+      </div>
+      <div class="nav__more-contents">
+        <div>YOUTUBE 더보기</div>
+        <div class="hover-item"><img src="./_assets/aside/youtube-premium.svg" alt=""> <span>YouTube Premium</span></div>
+        <div class="hover-item"><img src="./_assets/aside/movie.svg" alt=""> 영화</div>
+        <div class="hover-item"><img src="./_assets/aside/game.svg" alt=""> 게임</div>
+        <div class="hover-item"><img src="./_assets/aside/streaming.svg" alt=""> 실시간</div>
+        <div class="hover-item"><img src="./_assets/aside/education.svg" alt=""> 학습</div>
+        <div class="hover-item"><img src="./_assets/aside/sports.svg" alt=""> 스포츠</div>
+      </div>
+      <div class="nav__setting">
+        <div class="hover-item"><img src="./_assets/aside/settings.svg" alt=""> 설정</div>
+        <div class="hover-item"><img src="./_assets/aside/report.svg" alt=""> 신고 기록</div>
+        <div class="hover-item"><img src="./_assets/aside/QnA.svg" alt=""> 고객센터</div>
+        <div class="hover-item"><img src="./_assets/aside/send-comments.svg" alt=""> 의견 보내기</div>
+      </div>
+      <div>
+        <footer>
+          <div>
+          정보 보도자료 저작권 문의하기 크리에이터 광고 개발자
+          <br><br>
+          약관 개인정보처리방침정책 및 안전 YouTube 작동의 원리 새로운 기능 테스트하기
+          </div>
+          <br>
+          © 2021 Google LLC<br>
+          CEO: 선다 피차이<br>
+          주소: 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.<br>
+          전화: 080-822-1450(무료)
+        </footer>
+      </div>
+    </aside>
+
+    <section class="main-content">
+      <div class="genres">
+        <div class="genres__item">전체</div>
+        <div class="genres__item">영화</div>
+        <div class="genres__item">음악</div>
+        <div class="genres__item">반려동물</div>
+        <div class="genres__item">프롱이들이 좋아하는 동영상</div>
+        <div class="genres__item">반려동물2</div>
+        <div class="genres__item">최근에 본 동영상</div>
+        <div class="genres__item">반려동물3</div>
+        <div class="genres__item">좋아요 많은 동영상</div>
+        <div class="genres__item">지금 뜨고 있는 동영상</div>
+        <div class="genres__item">편집중인 동영상</div>
+      </div>
+      <div class="advertise">
+        <div class="advertise__main"><img src="./_assets/advertise/logo.jpg" alt=""></div>
+        <div class="advertise__sub__small"><img src="./_assets/advertise/small2.png" alt=""></div>
+      </div>
+      <div class="video-container">
+        <script type="text/javascript">
+        for (let i = 0; i < 16; i++) {
+          document.write(`
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="./_assets/video/thumb3.jpg" alt="">
+              </div>
+              <div class="video__details">
+                <div class="video__details__avatar">
+                  <img class="user-jpg" src="./_assets/header/unnamed.jpg" alt="">
+                </div>
+                <div class="video__details__content">
+                  <div class="video__name">D + ${i+1} 일차</div>
+                  <div class="video__user-name">jinhwansuh</div>
+                  <div class="video__detail">조회수 ${i}만회</div>
+                </div>
+                <div class="video__details--active">
+                  <img src="./_assets/video/more-details.svg" alt="">
+                </div>
+              </div>
+            </div>
+          `)
+        }
+        </script>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

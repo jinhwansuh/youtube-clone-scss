@@ -1,2 +1,6 @@
 # youtube-clone-scss
- yotube clone 반응형 클론입니다.
+ youtube main clone using SCSS
+
+원본 : https://www.youtube.com/
+
+클론 : https://youtube-clone-scss.vercel.app/
